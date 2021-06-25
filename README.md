@@ -1,6 +1,6 @@
-# electron-boilerplate
+# electron-wcc
 
-Minimalistic, very easy to understand boilerplate for [Electron runtime](https://www.electronjs.org/). Tested on Windows, macOS and Linux.  
+World Class Casino electron wrapper based on electron-boilerplate, a minimalistic, very easy to understand boilerplate for [Electron runtime](https://www.electronjs.org/). Tested on Windows, macOS and Linux.
 
 This project contains only bare minimum of tooling and dependencies to provide you with simple to understand and extensible base (but still, this is fully functional Electron environment). The boilerplate doesn't impose on you any frontend technologies, so feel free to pick your favourite.
 
@@ -8,8 +8,8 @@ This project contains only bare minimum of tooling and dependencies to provide y
 
 Make sure you have [Node.js](https://nodejs.org) installed, then type...
 ```
-git clone https://github.com/szwacz/electron-boilerplate.git
-cd electron-boilerplate
+git clone https://github.com/masquepublishing/electron-wcc.git
+cd electron-wcc
 npm install
 npm start
 ```
