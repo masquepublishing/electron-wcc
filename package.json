@@ -1,15 +1,14 @@
 {
-  "name": "electron-boilerplate",
-  "productName": "Electron Boilerplate",
-  "description": "Starter for your Electron application",
+  "name": "electron-wcc",
+  "productName": "World Class Casino",
+  "description": "World Class Casino",
   "version": "0.0.0",
-  "private": true,
-  "author": "Mr. Gumby <mr.gumby@example.com>",
-  "copyright": "© 2017, Gumby inc.",
-  "homepage": "http://example.com",
+  "author": "Masque Publishing, Inc.",
+  "copyright": "Copyright © 2013-2021, Masque Publishing, Inc.",
+  "homepage": "https://www.masque.com/worldclasscasino",
   "main": "app/main.js",
   "build": {
-    "appId": "com.example.electron-boilerplate",
+    "appId": "com.masque.electron-wcc",
     "files": [
       "app/**/*",
       "node_modules/**/*",

@@ -24,7 +24,7 @@ if (env.name !== "production") {
 }
 
 const setApplicationMenu = () => {
-  const menus = [appMenuTemplate, editMenuTemplate];
+  const menus = [appMenuTemplate/*, editMenuTemplate*/];
   if (env.name !== "production") {
     menus.push(devMenuTemplate);
   }
@@ -46,26 +46,15 @@ app.on("ready", () => {
   initIpc();
 
   const mainWindow = createWindow("main", {
-    width: 1000,
+    width: 1100,
     height: 600,
     webPreferences: {
-      // Two properties below are here for demo purposes, and are
-      // security hazard. Make sure you know what you're doing
-      // in your production app.
-      nodeIntegration: true,
-      contextIsolation: false,
       // Spectron needs access to remote module
       enableRemoteModule: env.name === "test"
     }
   });
 
-  mainWindow.loadURL(
-    url.format({
-      pathname: path.join(__dirname, "app.html"),
-      protocol: "file:",
-      slashes: true
-    })
-  );
+  mainWindow.loadURL('https://www.masque.com/worldclasscasino');
 
   if (env.name === "development") {
     mainWindow.openDevTools();
